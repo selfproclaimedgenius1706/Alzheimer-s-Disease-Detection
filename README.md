@@ -5,7 +5,7 @@
 1. Implement and optimize the performance of BERT in the task of Alzheimer's disease detection based on language impairment through audio transcript. The dataset we use in the research is provided by the DementiaBank.
 2. Compare the perfomance of 5 BERT family models: BERT, RoBERTa, AlBERT, DistilBERT and DeBERTa for the same task based on various evaluation metrics (confusion matrix, f1, recall, precision,...)
 
-**II. Model selection** 
+**II. MODEL SELECTION** 
 
 Since all of these 5 models are transformer-based architectures and are able to capture contextual relationships in text data, we want to determine which one offers the best performance and efficiency in Alzheimer's disease diagnosis. Here are some brief information about these models: 
 - **BERT (Bidirectional Encoder Representations from Transformers)**: BERT is a transformer-based model that excels at capturing contextual information from text in both directions and is widely used in natural language processing tasks.
