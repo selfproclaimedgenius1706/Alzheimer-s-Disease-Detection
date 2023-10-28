@@ -6,6 +6,7 @@
 2. Compare the perfomance of 5 BERT family models: BERT, RoBERTa, AlBERT, DistilBERT and DeBERTa for the same task based on various evaluation metrics (confusion matrix, f1, recall, precision,...)
 
 **II. Model selection** 
+Since all of these 5 models are transformer-based architectures and are able to capture contextual relationships in text data, we want to determine which one offers the best performance and efficiency in Alzheimer's disease diagnosis. Here are some brief information about these models: 
 - **BERT (Bidirectional Encoder Representations from Transformers)**: BERT is a transformer-based model that excels at capturing contextual information from text in both directions and is widely used in natural language processing tasks.
 - **DistilBERT**: DistilBERT is a distilled version of BERT that retains much of BERT's performance while being computationally more efficient. 
 - **ALBERT (A Lite BERT)**: ALBERT is another BERT variant designed to be more memory-efficient and faster while maintaining high performance, making it a valuable option for large-scale medical data analysis, where computational resources may be limited.
