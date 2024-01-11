@@ -14,5 +14,9 @@ Since all of these 5 models are transformer-based architectures and are able to 
 - **RoBERTa (A Robustly Optimized BERT Pretraining Approach)**: RoBERTa is an optimized variant of BERT that significantly improves pretraining techniques, potentially enhancing its performance in understanding complex medical texts and nuances in Alzheimer's disease data.
 - **DeBERTa (Decoding-enhanced BERT with disentangled attention)**: DeBERTa is a BERT-based model with enhanced decoding mechanisms, enabling it to capture intricate relationships in medical text data
 
-
+**III. TRAINING SETTINGS** 
+- Learning rate: The learning rate for all models is 1e-5
+- Epoch: The number of epochs for BERT, distilBERT and ALBERT is 10, while that of DeBERTa and RoBERTa is 20
+- Batch size: The mutual number of batch size for all models is 2
+. 
 
